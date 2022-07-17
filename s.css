@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border-bottom: 8px solid #222;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.74)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/8ef88e03-6f89-4c75-ae51-f8da7d252358/028d050e-d3f4-4e70-8ac3-1269026601b2/IN-en-20210208-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-netflix {
+  display: inline-block;
+  margin: 2rem;
+  height: 45px;
+  width: 167px;
+}
+.btn {
+  display: inline-block;
+  margin: 2rem 3rem;
+  color: #fff;
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 2px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.headings {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-top: 8rem;
+}
+h1 {
+  font-size: 70px;
+  margin: 0.5rem;
+}
+p {
+  font-size: 30px;
+  margin: 0.5rem;
+  font-weight: 100;
+}
+h5 {
+  font-size: 25px;
+  margin-top: 2rem;
+  font-weight: 200;
+}
+.mail {
+  margin-top: 1.5rem;
+  display: flex;
+}
+.search__input {
+  font-family: inherit;
+  font-size: 20px;
+  background-color: #fff;
+  color: #555;
+  border: none;
+  padding: 1rem 1rem;
+  height: 4rem;
+  width: 40rem;
+  transition: all 2s;
+}
+.search__input:focus {
+  outline: none;
+}
+.search__input:focus::placeholder {
+  transform: translateY(-1rem);
+  font-size: 15px;
+}
+.icon {
+  height: 1.34rem;
+  width: 1.34rem;
+  margin-left: 0.5rem;
+
+  fill: #fff;
+}
+.btnn {
+  height: 4rem;
+  width: 15rem;
+  background-color: #e50914;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 30px;
+}
+.highlights {
+  display: flex;
+  background-color: #000000;
+  color: #fff;
+  justify-content: space-around;
+  border-bottom: 8px solid #222;
+  padding: 2rem;
+  height: 30rem;
+}
+
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+}
+.image {
+  padding-right: 8rem;
+  position: relative;
+}
+.tvScreen {
+  position: relative;
+  padding-right: 3rem;
+}
+
+.videobox {
+  width: 100%;
+  height: 100%;
+  max-width: 70%;
+  max-height: 74%;
+  position: absolute;
+  top: 28%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  color: #555;
+  background-color: #000000;
+  height: 25rem;
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10rem;
+}
+li {
+  list-style: none;
+  padding: 0.5rem;
+}
+.links:link,
+.links:visited {
+  text-decoration: none;
+  color: #555;
+}
+.links:hover {
+  color: #f7f7f7;
+  border-bottom: solid 1px #fff;
+}
+.img {
+  height: 25rem;
+  width: auto;
+}
+.dis {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.about {
+  padding-top: 7rem;
+  padding-left: 9rem;
+}
+.about1 {
+  padding-top: 7rem;
+  padding-left: 7rem;
+}
+.image1 {
+  padding-left: 5rem;
+  height: 23rem;
+  width: auto;
+}
+.about2 {
+  padding-top: 7rem;
+  padding-left: 7rem;
+}
+.image2 {
+  padding-right: 8rem;
+}
+.bg-video {
+  z-index: 1;
+  display: inline-block;
+  vertical-align: baseline;
+  object-fit: contain;
+
+  height: 460px;
+  width: 385px;
+}
+/* .image {
+  position: relative;
+  z-index: 2; */
+
+.tv2 {
+  position: relative;
+  z-index: 2;
+}
+.bg-video2 {
+  height: 360px;
+  display: inline-block;
+  vertical-align: baseline;
+  object-fit: contain;
+  width: 195px;
+}
+.videobox2 {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 11%;
+  left: 44%;
+
+  box-direction: normal;
+}
+.image2 {
+  position: relative;
+  z-index: 2;
+}
+/* .bg-video2 {
+  display: inline-block;
+  vertical-align: baseline;
+  object-fit: contain;
+
+  height: 460px;
+  width: 300px;
+} */
+details {
+  width: 50%;
+  margin: 0 auto;
+  background: #282828;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+summary {
+  padding: 1rem;
+  display: block;
+  background: #333;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+summary:before {
+  content: "";
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: 0.2rem 50%;
+  transition: 0.25s transform ease;
+}
+
+/* THE MAGIC 🧙‍♀️ */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > ul {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.highlights2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: #fff;
+  justify-content: space-between;
+  border-bottom: 8px solid #222;
+  padding: 2rem;
+  height: 30rem;
+}
